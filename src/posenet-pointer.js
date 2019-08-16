@@ -1,7 +1,7 @@
 import * as Posenet from "@tensorflow-models/posenet";
 import { merge } from "lodash";
 
-export default class PoseNetPointer {
+module.exports = class PoseNetPointer {
   constructor(opts = {}) {
     // Whether this device is supported
     this.isSupported = this.isWebGLSupported();
@@ -622,4 +622,4 @@ export default class PoseNetPointer {
         this.poses[index] = pose;
       });
   }
-}
+};

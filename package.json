@@ -2,10 +2,10 @@
   "name": "posenet-pointer",
   "version": "0.0.1",
   "description": "A PoseNet powered \"face pointer\" and head pose estimator",
-  "main": "index.js",
+  "main": "dist/posenet-pointer.js",
   "scripts": {
     "start": "parcel demo/index.pug",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/posenet-pointer.js --global PosenetPointer"
   },
   "assetsPath": "demo/js",
   "repository": {
