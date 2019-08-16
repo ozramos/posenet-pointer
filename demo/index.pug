@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title PoseNet Pointer
+    link(rel="stylesheet" href="styl/style.styl")
+  body
+    .posenet-pointer
+    h1 PoseNet Pointer
+    p#description
+    p
+      select#demo-selector
+        option(value='noConfig') Zero Config
+    p
+      button#start-posenet Start PoseNet Pointer
+
+    script(src="../src/posenet-pointer.js")
+    script(src="js/demo.js")
