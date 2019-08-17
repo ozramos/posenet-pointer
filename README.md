@@ -2,7 +2,24 @@
   <img src="https://i.imgur.com/h8xztGT.gif">
   <h1>PoseNet Pointer</h1>
   <p>A PoseNet powered "face pointer" and head pose estimator</p>
+  <p>
+    <a href="https://npmjs.com/package/posenet-pointer">
+      <img src="https://img.shields.io/npm/v/posenet-pointer">
+    </a>
+    <a href="https://npmjs.com/package/posenet-pointer">
+      <img src="https://img.shields.io/bundlephobia/min/posenet-pointer">
+    </a>
+    <a href="https://npmjs.com/package/posenet-pointer">
+      <img src="https://img.shields.io/github/last-commit/ozramos/posenet-pointer">
+    </a>
+  </p>
 </div>
+
+# Coming soon
+
+Hi and thanks for checking out this repo! This project is not ready yet and I'm still in the process of documenting everything (and also improving the codebase 😅).
+
+See https://labofoz.com/posenet/pointer for more
 
 # Trying Local Demos
 
