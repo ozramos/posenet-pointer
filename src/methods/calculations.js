@@ -1,3 +1,7 @@
+/**
+ * Methods dealing with the calculations
+ * - Right now these are manual and buggy, but goal is to "learn" these calculations with a Neural Net
+ */
 module.exports = PosenetPointer => {
   /**
    * Run Calculations
